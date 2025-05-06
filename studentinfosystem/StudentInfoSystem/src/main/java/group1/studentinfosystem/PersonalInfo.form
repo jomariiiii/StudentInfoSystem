@@ -1,0 +1,948 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+      <Color blue="ff" green="ff" red="ff" type="rgb"/>
+    </Property>
+    <Property name="size" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+      <Dimension value="[968, 1061]"/>
+    </Property>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="UpperBarPanel" max="32767" attributes="0"/>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="103" alignment="0" groupAlignment="1" attributes="0">
+                                      <Component id="ProvinceLabel" alignment="0" min="-2" pref="128" max="-2" attributes="0"/>
+                                      <Component id="ProvinceComboBox" alignment="1" min="-2" pref="160" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="NationalityLabel" alignment="0" min="-2" pref="128" max="-2" attributes="0"/>
+                                  <Component id="NationalityComboBox" alignment="1" min="-2" pref="160" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="CityComboBox" min="-2" pref="159" max="-2" attributes="0"/>
+                                  <Component id="CityLabel" min="-2" pref="99" max="-2" attributes="0"/>
+                                  <Component id="ReligionLabel" alignment="0" min="-2" pref="128" max="-2" attributes="0"/>
+                                  <Component id="ReligionComboBox" min="-2" pref="160" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="17" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="EmailLabel" min="-2" pref="128" max="-2" attributes="0"/>
+                                  <Group type="103" alignment="0" groupAlignment="1" attributes="0">
+                                      <Component id="NextLabel" min="-2" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                          <Component id="BarangayLabel" min="-2" pref="99" max="-2" attributes="0"/>
+                                          <Component id="BarangayComboBox" pref="159" max="32767" attributes="0"/>
+                                          <Component id="EmailTextField" alignment="0" max="32767" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="TelephoneNumberTextField" alignment="0" min="-2" pref="194" max="-2" attributes="0"/>
+                                  <Component id="TelephoneNumberLabel" alignment="0" min="-2" pref="128" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="MobileNumberLabel" min="-2" pref="128" max="-2" attributes="0"/>
+                                  <Component id="MobileNumberTextField" min="-2" pref="194" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Component id="HouseNoTextField" alignment="0" min="-2" pref="513" max="-2" attributes="0"/>
+                          <Component id="PresentAddressLabel" min="-2" max="-2" attributes="0"/>
+                          <Component id="AddressLabel" min="-2" max="-2" attributes="0"/>
+                          <Component id="PreviousLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace pref="54" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="MiddleNameLabel" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="112" max="-2" attributes="0"/>
+                              <Component id="MiddleInitialLabel" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="DateofBirthLabel" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                              <Component id="PlaceofBirthLabel" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="MiddleNameTextField" min="-2" pref="168" max="-2" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="DateofBirthTextField" min="-2" pref="185" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="PlaceofBirthTextField" min="-2" pref="146" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="CivilStatusComboBox" min="-2" max="-2" attributes="0"/>
+                                  <Component id="CivilStatusLabel" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="GenderLabel" min="-2" max="-2" attributes="0"/>
+                                  <Component id="GenderComboBox" min="-2" pref="67" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="0" pref="35" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Component id="ImageLogoLabel" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Component id="BrowseImageLabel" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="67" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+              </Group>
+          </Group>
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+                              <Component id="surnameTextField" min="-2" pref="170" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+                              <Component id="surnameLabel" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="GivenNameLabel" min="-2" max="-2" attributes="0"/>
+                          <Component id="givenNameTextField" alignment="0" max="32767" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="MiddleInitialTextField" min="-2" pref="51" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="ExtensionLabel" min="-2" max="-2" attributes="0"/>
+                                  <Component id="ExtensionTextField" min="-2" pref="80" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+                      <Component id="PersonalInfoLabel" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="UpperBarPanel" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Component id="PersonalInfoLabel" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="givenNameTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="surnameTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="surnameLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="GivenNameLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="MiddleNameTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="MiddleInitialTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="ExtensionTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Component id="ImageLogoLabel" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="MiddleNameLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="MiddleInitialLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="ExtensionLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="BrowseImageLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="43" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="PlaceofBirthTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="CivilStatusComboBox" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="GenderComboBox" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="DateofBirthTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="DateofBirthLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="PlaceofBirthLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="CivilStatusLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="GenderLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="PresentAddressLabel" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="AddressLabel" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="HouseNoTextField" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Component id="ProvinceLabel" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
+                      <Component id="ProvinceComboBox" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                      <Component id="NationalityLabel" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="CityLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="BarangayLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="CityComboBox" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="BarangayComboBox" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="ReligionLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="EmailLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="EmailTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="NationalityComboBox" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="ReligionComboBox" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="TelephoneNumberLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="MobileNumberLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="TelephoneNumberTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="MobileNumberTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="40" max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="PreviousLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="NextLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="UpperBarPanel">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="f7" green="7b" red="56" type="rgb"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                  <Component id="PCULogo" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="PCULabel" min="-2" pref="428" max="-2" attributes="0"/>
+                  <EmptySpace pref="76" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+                  <Component id="PCULabel" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace pref="33" max="32767" attributes="0"/>
+              </Group>
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
+                  <Component id="PCULogo" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="PCULabel">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Arial Black" size="24" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Philippine Christian University"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="PCULogo">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="2" name="/Users/jomari/Downloads/Philippine_Christian_University_60.png"/>
+            </Property>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="PersonalInfoLabel">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Arial Black" size="18" style="1"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="0" red="0" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Your Personal Information:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="givenNameTextField">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="givenNameTextFieldActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="surnameTextField">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="surnameTextFieldActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="surnameLabel">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Arial" size="14" style="0"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="0" red="0" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Surname:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="GivenNameLabel">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Arial" size="14" style="0"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="0" red="0" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Given Name:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="MiddleNameTextField">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="MiddleNameTextFieldActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="MiddleNameLabel">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Arial" size="14" style="0"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="0" red="0" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Middle Name:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="MiddleInitialTextField">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="MiddleInitialTextFieldActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="ExtensionTextField">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ExtensionTextFieldActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="MiddleInitialLabel">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Arial" size="14" style="0"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="0" red="0" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="M.I."/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="ExtensionLabel">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Arial" size="14" style="0"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="0" red="0" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Ext."/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="BrowseImageLabel">
+      <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="99" red="0" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Browse Image"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="DateofBirthLabel">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Arial" size="14" style="0"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="0" red="0" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Date of Birth: (MM/DD/YYYY)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="PlaceofBirthTextField">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="PlaceofBirthTextFieldActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="PlaceofBirthLabel">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Arial" size="14" style="0"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="0" red="0" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Place of Birth:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="CivilStatusComboBox">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="3">
+            <StringItem index="0" value="Select"/>
+            <StringItem index="1" value="Single"/>
+            <StringItem index="2" value="Married"/>
+          </StringArray>
+        </Property>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="null"/>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="CivilStatusLabel">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Arial" size="14" style="0"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="0" red="0" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Civil Status:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="GenderComboBox">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="4">
+            <StringItem index="0" value="Select"/>
+            <StringItem index="1" value="Male"/>
+            <StringItem index="2" value="Female"/>
+            <StringItem index="3" value="Non-binary"/>
+          </StringArray>
+        </Property>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="null"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="GenderComboBoxActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="GenderLabel">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Arial" size="14" style="0"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="0" red="0" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Gender:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="PresentAddressLabel">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Arial Black" size="18" style="1"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="0" red="0" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Present Address:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="HouseNoTextField">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="HouseNoTextFieldActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="AddressLabel">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Arial" size="14" style="0"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="0" red="0" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="House No, Street Name:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="ProvinceComboBox">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="83">
+            <StringItem index="0" value="Select Region"/>
+            <StringItem index="1" value="Ilocos Norte"/>
+            <StringItem index="2" value="Ilocos Sur"/>
+            <StringItem index="3" value="La Union"/>
+            <StringItem index="4" value="Pangasinan"/>
+            <StringItem index="5" value="Batanes"/>
+            <StringItem index="6" value="Cagayan"/>
+            <StringItem index="7" value="Isabela"/>
+            <StringItem index="8" value="Nueva Vizcaya"/>
+            <StringItem index="9" value="Quirino"/>
+            <StringItem index="10" value="Aurora"/>
+            <StringItem index="11" value="Bataan"/>
+            <StringItem index="12" value="Bulacan"/>
+            <StringItem index="13" value="Nueva Ecija"/>
+            <StringItem index="14" value="Pampanga"/>
+            <StringItem index="15" value="Tarlac"/>
+            <StringItem index="16" value="Zambales"/>
+            <StringItem index="17" value="Batangas"/>
+            <StringItem index="18" value="Cavite"/>
+            <StringItem index="19" value="Laguna"/>
+            <StringItem index="20" value="Quezon"/>
+            <StringItem index="21" value="Rizal"/>
+            <StringItem index="22" value="Marinduque"/>
+            <StringItem index="23" value="Occidental Mindoro"/>
+            <StringItem index="24" value="Oriental Mindoro"/>
+            <StringItem index="25" value="Palawan"/>
+            <StringItem index="26" value="Romblon"/>
+            <StringItem index="27" value="Albay"/>
+            <StringItem index="28" value="Camarines Norte"/>
+            <StringItem index="29" value="Camarines Sur"/>
+            <StringItem index="30" value="Catanduanes"/>
+            <StringItem index="31" value="Masbate"/>
+            <StringItem index="32" value="Sorsogon"/>
+            <StringItem index="33" value="Abra"/>
+            <StringItem index="34" value="Apayao"/>
+            <StringItem index="35" value="Benguet"/>
+            <StringItem index="36" value="Ifugao"/>
+            <StringItem index="37" value="Kalinga"/>
+            <StringItem index="38" value="Mountain Province"/>
+            <StringItem index="39" value="Aklan"/>
+            <StringItem index="40" value="Antique"/>
+            <StringItem index="41" value="Capiz"/>
+            <StringItem index="42" value="Guimaras"/>
+            <StringItem index="43" value="Iloilo"/>
+            <StringItem index="44" value="Negros Occidental"/>
+            <StringItem index="45" value="Bohol"/>
+            <StringItem index="46" value="Cebu"/>
+            <StringItem index="47" value="Negros Oriental"/>
+            <StringItem index="48" value="Siquijor"/>
+            <StringItem index="49" value="Biliran"/>
+            <StringItem index="50" value="Eastern Samar"/>
+            <StringItem index="51" value="Leyte"/>
+            <StringItem index="52" value="Northern Samar"/>
+            <StringItem index="53" value="Samar"/>
+            <StringItem index="54" value="Southern Leyte"/>
+            <StringItem index="55" value="Zamboanga del Norte"/>
+            <StringItem index="56" value="Zamboanga del Sur"/>
+            <StringItem index="57" value="Zamboanga Sibugay"/>
+            <StringItem index="58" value="Bukidnon"/>
+            <StringItem index="59" value="Camiguin"/>
+            <StringItem index="60" value="Lanao del Norte"/>
+            <StringItem index="61" value="Misamis Occidental"/>
+            <StringItem index="62" value="Misamis Oriental"/>
+            <StringItem index="63" value="Davao de Oro"/>
+            <StringItem index="64" value="Davao del Norte"/>
+            <StringItem index="65" value="Davao del Sur"/>
+            <StringItem index="66" value="Davao Occidental"/>
+            <StringItem index="67" value="Davao Oriental"/>
+            <StringItem index="68" value="Cotabato"/>
+            <StringItem index="69" value="Sarangani"/>
+            <StringItem index="70" value="South Cotabato"/>
+            <StringItem index="71" value="Sultan Kudarat"/>
+            <StringItem index="72" value="Agusan del Norte"/>
+            <StringItem index="73" value="Agusan del Sur"/>
+            <StringItem index="74" value="Dinagat Islands"/>
+            <StringItem index="75" value="Surigao del Norte"/>
+            <StringItem index="76" value="Surigao del Sur"/>
+            <StringItem index="77" value="Basilan"/>
+            <StringItem index="78" value="Lanao del Sur"/>
+            <StringItem index="79" value="Maguindanao del Norte"/>
+            <StringItem index="80" value="Maguindanao del Sur"/>
+            <StringItem index="81" value="Sulu"/>
+            <StringItem index="82" value="Tawi-Tawi"/>
+          </StringArray>
+        </Property>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="null"/>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="ProvinceLabel">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Arial" size="14" style="0"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="0" red="0" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Province / Region:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="CityLabel">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Arial" size="14" style="0"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="0" red="0" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="City:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="CityComboBox">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="3">
+            <StringItem index="0" value="Select City"/>
+            <StringItem index="1" value="Single"/>
+            <StringItem index="2" value="Married"/>
+          </StringArray>
+        </Property>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="null"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="CityComboBoxActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="BarangayLabel">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Arial" size="14" style="0"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="0" red="0" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Barangay:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="BarangayComboBox">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="3">
+            <StringItem index="0" value="Select"/>
+            <StringItem index="1" value="Single"/>
+            <StringItem index="2" value="Married"/>
+          </StringArray>
+        </Property>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="null"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BarangayComboBoxActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JTextField" name="DateofBirthTextField">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="DateofBirthTextFieldActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="EmailTextField">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="EmailTextFieldActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="NationalityLabel">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Arial" size="14" style="0"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="0" red="0" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Nationality:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="ReligionLabel">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Arial" size="14" style="0"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="0" red="0" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Religion:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="EmailLabel">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Arial" size="14" style="0"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="0" red="0" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Email:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="TelephoneNumberTextField">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="TelephoneNumberTextFieldActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="TelephoneNumberLabel">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Arial" size="14" style="0"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="0" red="0" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Telephone Number:"/>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JTextField" name="MobileNumberTextField">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="MobileNumberTextFieldActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="MobileNumberLabel">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Arial" size="14" style="0"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="0" red="0" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Mobile Number:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="PreviousLabel">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="14" style="0"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="99" red="0" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Previous"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="NextLabel">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="14" style="0"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="99" red="0" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Next"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="ImageLogoLabel">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="2" name="/Users/jomari/Downloads/posa4.jpg"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="inputMethodTextChanged" listener="java.awt.event.InputMethodListener" parameters="java.awt.event.InputMethodEvent" handler="ImageLogoLabelInputMethodTextChanged"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="NationalityComboBox">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="83">
+            <StringItem index="0" value="Select Region"/>
+            <StringItem index="1" value="Ilocos Norte"/>
+            <StringItem index="2" value="Ilocos Sur"/>
+            <StringItem index="3" value="La Union"/>
+            <StringItem index="4" value="Pangasinan"/>
+            <StringItem index="5" value="Batanes"/>
+            <StringItem index="6" value="Cagayan"/>
+            <StringItem index="7" value="Isabela"/>
+            <StringItem index="8" value="Nueva Vizcaya"/>
+            <StringItem index="9" value="Quirino"/>
+            <StringItem index="10" value="Aurora"/>
+            <StringItem index="11" value="Bataan"/>
+            <StringItem index="12" value="Bulacan"/>
+            <StringItem index="13" value="Nueva Ecija"/>
+            <StringItem index="14" value="Pampanga"/>
+            <StringItem index="15" value="Tarlac"/>
+            <StringItem index="16" value="Zambales"/>
+            <StringItem index="17" value="Batangas"/>
+            <StringItem index="18" value="Cavite"/>
+            <StringItem index="19" value="Laguna"/>
+            <StringItem index="20" value="Quezon"/>
+            <StringItem index="21" value="Rizal"/>
+            <StringItem index="22" value="Marinduque"/>
+            <StringItem index="23" value="Occidental Mindoro"/>
+            <StringItem index="24" value="Oriental Mindoro"/>
+            <StringItem index="25" value="Palawan"/>
+            <StringItem index="26" value="Romblon"/>
+            <StringItem index="27" value="Albay"/>
+            <StringItem index="28" value="Camarines Norte"/>
+            <StringItem index="29" value="Camarines Sur"/>
+            <StringItem index="30" value="Catanduanes"/>
+            <StringItem index="31" value="Masbate"/>
+            <StringItem index="32" value="Sorsogon"/>
+            <StringItem index="33" value="Abra"/>
+            <StringItem index="34" value="Apayao"/>
+            <StringItem index="35" value="Benguet"/>
+            <StringItem index="36" value="Ifugao"/>
+            <StringItem index="37" value="Kalinga"/>
+            <StringItem index="38" value="Mountain Province"/>
+            <StringItem index="39" value="Aklan"/>
+            <StringItem index="40" value="Antique"/>
+            <StringItem index="41" value="Capiz"/>
+            <StringItem index="42" value="Guimaras"/>
+            <StringItem index="43" value="Iloilo"/>
+            <StringItem index="44" value="Negros Occidental"/>
+            <StringItem index="45" value="Bohol"/>
+            <StringItem index="46" value="Cebu"/>
+            <StringItem index="47" value="Negros Oriental"/>
+            <StringItem index="48" value="Siquijor"/>
+            <StringItem index="49" value="Biliran"/>
+            <StringItem index="50" value="Eastern Samar"/>
+            <StringItem index="51" value="Leyte"/>
+            <StringItem index="52" value="Northern Samar"/>
+            <StringItem index="53" value="Samar"/>
+            <StringItem index="54" value="Southern Leyte"/>
+            <StringItem index="55" value="Zamboanga del Norte"/>
+            <StringItem index="56" value="Zamboanga del Sur"/>
+            <StringItem index="57" value="Zamboanga Sibugay"/>
+            <StringItem index="58" value="Bukidnon"/>
+            <StringItem index="59" value="Camiguin"/>
+            <StringItem index="60" value="Lanao del Norte"/>
+            <StringItem index="61" value="Misamis Occidental"/>
+            <StringItem index="62" value="Misamis Oriental"/>
+            <StringItem index="63" value="Davao de Oro"/>
+            <StringItem index="64" value="Davao del Norte"/>
+            <StringItem index="65" value="Davao del Sur"/>
+            <StringItem index="66" value="Davao Occidental"/>
+            <StringItem index="67" value="Davao Oriental"/>
+            <StringItem index="68" value="Cotabato"/>
+            <StringItem index="69" value="Sarangani"/>
+            <StringItem index="70" value="South Cotabato"/>
+            <StringItem index="71" value="Sultan Kudarat"/>
+            <StringItem index="72" value="Agusan del Norte"/>
+            <StringItem index="73" value="Agusan del Sur"/>
+            <StringItem index="74" value="Dinagat Islands"/>
+            <StringItem index="75" value="Surigao del Norte"/>
+            <StringItem index="76" value="Surigao del Sur"/>
+            <StringItem index="77" value="Basilan"/>
+            <StringItem index="78" value="Lanao del Sur"/>
+            <StringItem index="79" value="Maguindanao del Norte"/>
+            <StringItem index="80" value="Maguindanao del Sur"/>
+            <StringItem index="81" value="Sulu"/>
+            <StringItem index="82" value="Tawi-Tawi"/>
+          </StringArray>
+        </Property>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="null"/>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="ReligionComboBox">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="7">
+            <StringItem index="0" value="Select Religion"/>
+            <StringItem index="1" value="Roman Catholic"/>
+            <StringItem index="2" value="Iglesia ni Cristo"/>
+            <StringItem index="3" value="Islam"/>
+            <StringItem index="4" value="Protestantism"/>
+            <StringItem index="5" value="Baptist"/>
+            <StringItem index="6" value="Others"/>
+          </StringArray>
+        </Property>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="null"/>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
+    </Component>
+  </SubComponents>
+</Form>
